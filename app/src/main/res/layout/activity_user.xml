@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.UserActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:text="Управление аккаунтом"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+            <EditText
+                android:hint="Новый логин"
+                android:id="@+id/loginEditText"
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:layout_height="70dp">
+
+            </EditText>
+
+            <EditText
+                android:hint="Новый пароль"
+                android:id="@+id/passwordEditText"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:layout_height="70dp">
+
+            </EditText>
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:text="Изменить"
+                android:textSize="22sp"
+                android:textAllCaps="false"
+                android:id="@+id/editButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:cornerRadius="10dp"
+                />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:text="Удалить аккаунт"
+                android:textSize="22sp"
+                android:textAllCaps="false"
+                android:id="@+id/deleteButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:cornerRadius="10dp"
+                />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:text="AdminPanel"
+                android:textSize="22sp"
+                android:textAllCaps="false"
+                android:id="@+id/adminButton"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:cornerRadius="10dp"
+                />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:text="Назад"
+                android:textSize="22sp"
+                android:textAllCaps="false"
+                android:id="@+id/backButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:cornerRadius="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

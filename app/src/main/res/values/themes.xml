@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RedBook" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="android:statusBarColor">@color/red</item>
+        <item name="colorControlHighlight">@color/red</item>
+        <item name="colorSecondary">@color/red</item>
+    </style>
+
+    <style name="Theme.RedBook" parent="Base.Theme.RedBook" />
+</resources>
